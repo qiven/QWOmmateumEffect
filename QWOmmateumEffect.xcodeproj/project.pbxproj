@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B06218E1DE46D97004ADEF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B06218D1DE46D97004ADEF0 /* main.m */; };
+		8B0621911DE46D97004ADEF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0621901DE46D97004ADEF0 /* AppDelegate.m */; };
+		8B0621941DE46D97004ADEF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0621931DE46D97004ADEF0 /* ViewController.m */; };
+		8B0621971DE46D97004ADEF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0621951DE46D97004ADEF0 /* Main.storyboard */; };
+		8B0621991DE46D97004ADEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0621981DE46D97004ADEF0 /* Assets.xcassets */; };
+		8B06219C1DE46D97004ADEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B06219A1DE46D97004ADEF0 /* LaunchScreen.storyboard */; };
+		8B0621A71DE46D98004ADEF0 /* QWOmmateumEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0621A61DE46D98004ADEF0 /* QWOmmateumEffectTests.m */; };
+		8B0621B21DE46D98004ADEF0 /* QWOmmateumEffectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0621B11DE46D98004ADEF0 /* QWOmmateumEffectUITests.m */; };
+		8B0621C11DE46E03004ADEF0 /* QWOmmateumEffectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0621C01DE46E03004ADEF0 /* QWOmmateumEffectCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B0621A31DE46D98004ADEF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0621811DE46D97004ADEF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B0621881DE46D97004ADEF0;
+			remoteInfo = QWOmmateumEffect;
+		};
+		8B0621AE1DE46D98004ADEF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0621811DE46D97004ADEF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B0621881DE46D97004ADEF0;
+			remoteInfo = QWOmmateumEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B0621891DE46D97004ADEF0 /* QWOmmateumEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QWOmmateumEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B06218D1DE46D97004ADEF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B06218F1DE46D97004ADEF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B0621901DE46D97004ADEF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B0621921DE46D97004ADEF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B0621931DE46D97004ADEF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B0621961DE46D97004ADEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B0621981DE46D97004ADEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B06219B1DE46D97004ADEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B06219D1DE46D97004ADEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0621A21DE46D98004ADEF0 /* QWOmmateumEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWOmmateumEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0621A61DE46D98004ADEF0 /* QWOmmateumEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QWOmmateumEffectTests.m; sourceTree = "<group>"; };
+		8B0621A81DE46D98004ADEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0621AD1DE46D98004ADEF0 /* QWOmmateumEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWOmmateumEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0621B11DE46D98004ADEF0 /* QWOmmateumEffectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QWOmmateumEffectUITests.m; sourceTree = "<group>"; };
+		8B0621B31DE46D98004ADEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0621BF1DE46E03004ADEF0 /* QWOmmateumEffectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWOmmateumEffectCell.h; sourceTree = "<group>"; };
+		8B0621C01DE46E03004ADEF0 /* QWOmmateumEffectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWOmmateumEffectCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B0621861DE46D97004ADEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B06219F1DE46D98004ADEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0621AA1DE46D98004ADEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B0621801DE46D97004ADEF0 = {
+			isa = PBXGroup;
+			children = (
+				8B06218B1DE46D97004ADEF0 /* QWOmmateumEffect */,
+				8B0621A51DE46D98004ADEF0 /* QWOmmateumEffectTests */,
+				8B0621B01DE46D98004ADEF0 /* QWOmmateumEffectUITests */,
+				8B06218A1DE46D97004ADEF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B06218A1DE46D97004ADEF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B0621891DE46D97004ADEF0 /* QWOmmateumEffect.app */,
+				8B0621A21DE46D98004ADEF0 /* QWOmmateumEffectTests.xctest */,
+				8B0621AD1DE46D98004ADEF0 /* QWOmmateumEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B06218B1DE46D97004ADEF0 /* QWOmmateumEffect */ = {
+			isa = PBXGroup;
+			children = (
+				8B06218F1DE46D97004ADEF0 /* AppDelegate.h */,
+				8B0621901DE46D97004ADEF0 /* AppDelegate.m */,
+				8B0621921DE46D97004ADEF0 /* ViewController.h */,
+				8B0621931DE46D97004ADEF0 /* ViewController.m */,
+				8B0621BF1DE46E03004ADEF0 /* QWOmmateumEffectCell.h */,
+				8B0621C01DE46E03004ADEF0 /* QWOmmateumEffectCell.m */,
+				8B0621951DE46D97004ADEF0 /* Main.storyboard */,
+				8B0621981DE46D97004ADEF0 /* Assets.xcassets */,
+				8B06219A1DE46D97004ADEF0 /* LaunchScreen.storyboard */,
+				8B06219D1DE46D97004ADEF0 /* Info.plist */,
+				8B06218C1DE46D97004ADEF0 /* Supporting Files */,
+			);
+			path = QWOmmateumEffect;
+			sourceTree = "<group>";
+		};
+		8B06218C1DE46D97004ADEF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B06218D1DE46D97004ADEF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B0621A51DE46D98004ADEF0 /* QWOmmateumEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B0621A61DE46D98004ADEF0 /* QWOmmateumEffectTests.m */,
+				8B0621A81DE46D98004ADEF0 /* Info.plist */,
+			);
+			path = QWOmmateumEffectTests;
+			sourceTree = "<group>";
+		};
+		8B0621B01DE46D98004ADEF0 /* QWOmmateumEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B0621B11DE46D98004ADEF0 /* QWOmmateumEffectUITests.m */,
+				8B0621B31DE46D98004ADEF0 /* Info.plist */,
+			);
+			path = QWOmmateumEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B0621881DE46D97004ADEF0 /* QWOmmateumEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0621B61DE46D98004ADEF0 /* Build configuration list for PBXNativeTarget "QWOmmateumEffect" */;
+			buildPhases = (
+				8B0621851DE46D97004ADEF0 /* Sources */,
+				8B0621861DE46D97004ADEF0 /* Frameworks */,
+				8B0621871DE46D97004ADEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QWOmmateumEffect;
+			productName = QWOmmateumEffect;
+			productReference = 8B0621891DE46D97004ADEF0 /* QWOmmateumEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B0621A11DE46D98004ADEF0 /* QWOmmateumEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0621B91DE46D98004ADEF0 /* Build configuration list for PBXNativeTarget "QWOmmateumEffectTests" */;
+			buildPhases = (
+				8B06219E1DE46D98004ADEF0 /* Sources */,
+				8B06219F1DE46D98004ADEF0 /* Frameworks */,
+				8B0621A01DE46D98004ADEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B0621A41DE46D98004ADEF0 /* PBXTargetDependency */,
+			);
+			name = QWOmmateumEffectTests;
+			productName = QWOmmateumEffectTests;
+			productReference = 8B0621A21DE46D98004ADEF0 /* QWOmmateumEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B0621AC1DE46D98004ADEF0 /* QWOmmateumEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0621BC1DE46D98004ADEF0 /* Build configuration list for PBXNativeTarget "QWOmmateumEffectUITests" */;
+			buildPhases = (
+				8B0621A91DE46D98004ADEF0 /* Sources */,
+				8B0621AA1DE46D98004ADEF0 /* Frameworks */,
+				8B0621AB1DE46D98004ADEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B0621AF1DE46D98004ADEF0 /* PBXTargetDependency */,
+			);
+			name = QWOmmateumEffectUITests;
+			productName = QWOmmateumEffectUITests;
+			productReference = 8B0621AD1DE46D98004ADEF0 /* QWOmmateumEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B0621811DE46D97004ADEF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = QivenDev;
+				TargetAttributes = {
+					8B0621881DE46D97004ADEF0 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ASN7P3MNTF;
+						ProvisioningStyle = Automatic;
+					};
+					8B0621A11DE46D98004ADEF0 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ASN7P3MNTF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B0621881DE46D97004ADEF0;
+					};
+					8B0621AC1DE46D98004ADEF0 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ASN7P3MNTF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B0621881DE46D97004ADEF0;
+					};
+				};
+			};
+			buildConfigurationList = 8B0621841DE46D97004ADEF0 /* Build configuration list for PBXProject "QWOmmateumEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B0621801DE46D97004ADEF0;
+			productRefGroup = 8B06218A1DE46D97004ADEF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B0621881DE46D97004ADEF0 /* QWOmmateumEffect */,
+				8B0621A11DE46D98004ADEF0 /* QWOmmateumEffectTests */,
+				8B0621AC1DE46D98004ADEF0 /* QWOmmateumEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B0621871DE46D97004ADEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B06219C1DE46D97004ADEF0 /* LaunchScreen.storyboard in Resources */,
+				8B0621991DE46D97004ADEF0 /* Assets.xcassets in Resources */,
+				8B0621971DE46D97004ADEF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0621A01DE46D98004ADEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0621AB1DE46D98004ADEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B0621851DE46D97004ADEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0621941DE46D97004ADEF0 /* ViewController.m in Sources */,
+				8B0621911DE46D97004ADEF0 /* AppDelegate.m in Sources */,
+				8B06218E1DE46D97004ADEF0 /* main.m in Sources */,
+				8B0621C11DE46E03004ADEF0 /* QWOmmateumEffectCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B06219E1DE46D98004ADEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0621A71DE46D98004ADEF0 /* QWOmmateumEffectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0621A91DE46D98004ADEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0621B21DE46D98004ADEF0 /* QWOmmateumEffectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B0621A41DE46D98004ADEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B0621881DE46D97004ADEF0 /* QWOmmateumEffect */;
+			targetProxy = 8B0621A31DE46D98004ADEF0 /* PBXContainerItemProxy */;
+		};
+		8B0621AF1DE46D98004ADEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B0621881DE46D97004ADEF0 /* QWOmmateumEffect */;
+			targetProxy = 8B0621AE1DE46D98004ADEF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B0621951DE46D97004ADEF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B0621961DE46D97004ADEF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B06219A1DE46D97004ADEF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B06219B1DE46D97004ADEF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B0621B41DE46D98004ADEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B0621B51DE46D98004ADEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B0621B71DE46D98004ADEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ASN7P3MNTF;
+				INFOPLIST_FILE = QWOmmateumEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.qiven.www.QWOmmateumEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B0621B81DE46D98004ADEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ASN7P3MNTF;
+				INFOPLIST_FILE = QWOmmateumEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.qiven.www.QWOmmateumEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B0621BA1DE46D98004ADEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ASN7P3MNTF;
+				INFOPLIST_FILE = QWOmmateumEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.qiven.www.QWOmmateumEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QWOmmateumEffect.app/QWOmmateumEffect";
+			};
+			name = Debug;
+		};
+		8B0621BB1DE46D98004ADEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ASN7P3MNTF;
+				INFOPLIST_FILE = QWOmmateumEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.qiven.www.QWOmmateumEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QWOmmateumEffect.app/QWOmmateumEffect";
+			};
+			name = Release;
+		};
+		8B0621BD1DE46D98004ADEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ASN7P3MNTF;
+				INFOPLIST_FILE = QWOmmateumEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.qiven.www.QWOmmateumEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QWOmmateumEffect;
+			};
+			name = Debug;
+		};
+		8B0621BE1DE46D98004ADEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ASN7P3MNTF;
+				INFOPLIST_FILE = QWOmmateumEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.qiven.www.QWOmmateumEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QWOmmateumEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B0621841DE46D97004ADEF0 /* Build configuration list for PBXProject "QWOmmateumEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0621B41DE46D98004ADEF0 /* Debug */,
+				8B0621B51DE46D98004ADEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0621B61DE46D98004ADEF0 /* Build configuration list for PBXNativeTarget "QWOmmateumEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0621B71DE46D98004ADEF0 /* Debug */,
+				8B0621B81DE46D98004ADEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B0621B91DE46D98004ADEF0 /* Build configuration list for PBXNativeTarget "QWOmmateumEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0621BA1DE46D98004ADEF0 /* Debug */,
+				8B0621BB1DE46D98004ADEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B0621BC1DE46D98004ADEF0 /* Build configuration list for PBXNativeTarget "QWOmmateumEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0621BD1DE46D98004ADEF0 /* Debug */,
+				8B0621BE1DE46D98004ADEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B0621811DE46D97004ADEF0 /* Project object */;
+}
